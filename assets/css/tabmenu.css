@@ -1,0 +1,38 @@
+.tab-menu{
+    border: 1px solid #428ACC;
+    }
+    .tab-menu .tab-header{
+        background-color: #428ACC;
+        align-items: end;
+        height: 60px;
+        color: white;
+    }
+    .tab-menu .tab-header .item{
+        height: 50px;
+        width: calc(100%/4);
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s;
+    }
+    .active-tab{
+        color: #428ACC;
+        background-color: white;
+        
+    }
+    .tab-menu .tab-content{
+        width: 600px;
+        padding: 20px;
+        background-color:white;
+        color: black;
+    }
+
+    .tab-menu .tab-content .items{
+       display: none;
+    }
+
+    .tab-menu .tab-content .active-tabs{
+        display: block;
+     }
